@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    //@IBOutlet weak var maxCounterLabel: UILabel!
+    
     //var maxCounter:Int = 0
     override func viewDidLoad() {
         super.viewDidLoad()
