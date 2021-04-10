@@ -13,7 +13,7 @@ class secondViewController: UIViewController {
     
     @IBOutlet weak var slime: UIImageView!
     var counter:Int = 0
-    //var ViewControllerOne:ViewControllerOne?
+    var ViewController:ViewController?
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -28,7 +28,7 @@ class secondViewController: UIViewController {
             self.sword.image = UIImage(named: "upSword")
             self.slime.image = UIImage(named: "AngrySlime")
         }
-        //ViewControllerOne?.maxCheck(newMax: counter)
+        ViewController?.maxCheck(newMax: counter)
     }
     
     
